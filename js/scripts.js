@@ -4,7 +4,7 @@ $(function() {
 
   suits.forEach(function(suit) {
     ranks.forEach(function(rank) {
-      var card = $('#deck').add('<div class="card bg-light">' + '<div class="card-body">' + suit + '<p class="card-text"><h4 class="card-title">' + rank + ' of ' + suit + '</h4></p></div></div>');
+      var card = $('#deck').add('<div class="card bg-light">' + '<div class="card-body"><p class="card-text"><h4 class="card-title">' + rank + ' of ' + suit + '</h4></p></div></div>');
       $('#deck').append(card);
     });
   });
